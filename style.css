@@ -13,18 +13,27 @@
     --blue-color: #123a5e;
 }
 
+main {
+    margin-top: 80px;
+}
 
 nav {
     display: flex;
     justify-content: space-between;
     padding: 20px 8%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
 
 }
 
-.recherche   {
+.recherche {
     display: block;
 
-} 
+}
 
 .ul {
     display: flex;
